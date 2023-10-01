@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #adb5bd;
+}
+
+.container {
+    width: auto;
+    max-width: 1200px;
+}
+
+.main {
+    display: flex;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 20px;
+}
+
+.selectDays {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px 0;
+}
+
+#outputDate {
+    width: 500px;
+    margin: 20px;
+}
+
+#inputDateTime {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 525px;
+    padding: 20px;
+    margin: 30px auto;
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.sort {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.form-check {
+    display: flex;
+    gap: 10px;
+}
+
+#itemContainer {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.itemContainer {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.nameActivDay {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.day-list {
+    position: absolute;
+    z-index: 0;
+    display: none;
+}
+
+.activeDayList {
+    z-index: 1;
+    display: inline;
+}
