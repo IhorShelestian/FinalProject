@@ -139,8 +139,6 @@ function addIteminList() {
     }
 }
 
-const AllCheckbox = document.querySelectorAll('.checkboxForItem');
-
 function clearListContainer() {
     const listContainer = document.querySelector('.activeListContainer');
     if (listContainer.innerHTML !== '') {
